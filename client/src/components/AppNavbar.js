@@ -31,7 +31,7 @@ state = {
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="https://github.com/naghamramadan">Github</NavLink>
+                                <NavLink href="https://www.undp.org/content/undp/en/home.html">UNDP</NavLink>
                             </NavItem>
                         </Nav>
                     </Collapse>
