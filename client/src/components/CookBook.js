@@ -21,7 +21,7 @@ class CookBook extends Component {
 
                 <ListGroup>
                     <TransitionGroup className="cook-book">
-                        {books.map(({ _id, Title}) => (
+                        {books.map(({ _id, title}) => (
                             <CSSTransition key={_id} timeout={500} classNames="fade">    
                                 <ListGroupItem>
                                 <Button
@@ -32,7 +32,7 @@ class CookBook extends Component {
                                 >
                                     &times;
                                     </Button>
-                                    {Title}
+                                    {title}
                                 </ListGroupItem>
                             </CSSTransition>
                         ))}
